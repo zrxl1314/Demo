@@ -1,0 +1,216 @@
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+.title{
+    height: 65px;
+    padding-left: 60px;
+    line-height: 65px;
+    font-size: 25px;
+    font-weight: 600;
+    background-image: url("../imgs/bji_02.png");
+    background-repeat: no-repeat;
+    background-size: 50px 40px;
+    background-position: 0 13px;
+    color: #171717;
+}
+.introduction{
+    width: 980px;
+    height: 110px;
+    margin: 0 auto;
+    color: black;
+    line-height: 25px;
+    text-indent: 2em;
+    padding: 10px;
+    position: relative;
+}
+.introduction_text{
+    top:0;
+    background-image: url("../imgs/banner1.jpg");
+    width: 1000px;height: 130px;
+    position: absolute;
+    opacity: 0.5
+}
+.scenery{
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+.scenery_left{
+    width: 320px;
+    height: 50px;
+    padding-top: 200px;
+    background-image: url("../imgs/wenfengta1.jpg");
+    background-size: 320px 300px;
+}
+.scenery_center{
+    width: 320px;
+    height: 50px;
+    padding-top: 200px;
+    background-image: url("../imgs/baimajian.jpg");
+    background-size: 320px 300px;
+    margin-left: 20px;
+}
+.scenery_right{
+    width: 320px;
+    height: 50px;
+    padding-top: 200px;
+    background-image: url("../imgs/wenmiao3.jpg");
+    background-size: 320px 300px;
+}
+.scenery p{
+    margin-top: 10px;
+    height: 40px;
+    width: 320px;
+    background-color: rgba(0,0,0,0.6);
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+.events{
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url("../imgs/banner1.jpg");
+}
+.events_left{
+     width: 330px;
+     height: 250px;
+     background-image: url("../imgs/jiuyuandui.jpg");
+     background-size: 330px 250px;
+ }
+.events_right{
+    width: 330px;
+    height: 250px;
+    background-image: url("../imgs/gomgren.jpg");
+    background-size: 330px 250px;
+}
+.events p{
+    margin-top: 210px;
+    height: 40px;
+    width: 330px;
+    background-color: rgba(0,0,0,1);
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+.events_center{
+    width: 300px;
+    padding-left: 40px;
+    padding-top: 20px;
+    height: 230px;
+    background-color: rgba(0,0,0,0.7);
+}
+.events_center span{
+    color: #ffb002;
+    font-weight: bold;
+    font-size: 14px;
+}
+.events_center ul li{
+    line-height: 23px;
+    color: white;
+    font-size: 13px;
+}
+.specialty{
+    width: 1000px;
+    height: 240px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+.specialty_left{
+    width: 320px;
+    height: 240px;
+    background-image: url("../imgs/shihu.png");
+}
+.specialty_center{
+    width: 320px;
+    height: 240px;
+    background-image: url("../imgs/xiangzifen.jpg");
+    background-size: 320px;
+    margin-left: 20px;
+}
+.specialty_right{
+    width: 320px;
+    height: 240px;
+    background-image: url("../imgs/huangyacha.jpg");
+    background-size: 320px;
+}
+.specialty p{
+    margin-top: 200px;
+    height: 40px;
+    width: 320px;
+    background-color: rgba(0,0,0,0.6);
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+.tool{
+    width: 1000px;
+    padding-top: 10px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+.tool p{
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.tool_left{
+    width: 140px;
+    height: 80px;
+    padding-left: 100px;
+    background-image: url("../imgs/hotel.jpg");
+    background-size: 250px 250px;
+    background-position: -165px 0;
+    background-repeat: no-repeat;
+    background-color: #43485C;
+    color: white;
+}
+.tool_center{
+    width: 140px;
+    height: 80px;
+    padding-left: 100px;
+    background-image: url("../imgs/food.jpg");
+    background-size: 83px 83px;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: #171717;
+    margin-left: 13px;
+}
+.toolCenter{
+    width: 140px;
+    height: 80px;
+    padding-left: 100px;
+    background-image: url("../imgs/car_03.png");
+    background-repeat: no-repeat;
+    background-size: 83px 83px;
+    background-color:#34689A;
+    color: white;
+    margin-left: 13px;
+}
+.tool_right{
+    width: 140px;
+    height: 80px;
+    padding-left: 100px;
+    background-image: url("../imgs/tianqitubiao_03.png");
+    background-repeat: no-repeat;
+    background-size: 83px 83px;
+    background-color: #000000;
+    color: white;
+}
+.company img{
+    width: 160px;
+}
+.return{
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #807d04;
+}
+.return a{
+    color: white;
+}

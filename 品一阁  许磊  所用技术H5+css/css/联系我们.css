@@ -1,0 +1,37 @@
+.maintop{
+    height:100px;
+    width: 984px;
+    margin: 0 auto;
+    border-bottom: 1px solid #EEEEEE;
+}
+.maintoptext{
+    font-size: 18px;
+    font-weight: bold;
+    color: #00040C;
+    text-align: center;
+}
+.maintop p:nth-child(1){
+    margin-top: 54px;
+}
+.maincenter{
+    width: 984px;
+    height: 220px;
+    margin: 0 auto;
+}
+.maincenterleft{
+    width: 328px;
+    padding-top: 53px;
+}
+.img{
+    margin-left: 133px;
+}
+.maincenterleft p{
+    color: #484848;
+    text-align: center;
+    line-height: 24px;
+}
+.bottom{
+    width: 1349px;
+    margin: 0 auto;
+    margin-top: 75px;
+}

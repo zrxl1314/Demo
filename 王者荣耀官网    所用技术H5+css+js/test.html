@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li, ul{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+            width: 40px;
+            height: 20px;
+            float: left;
+            border: 1px solid red;
+        }
+        div{
+            width: 500px;
+            height:300px ;
+            border: 1px solid red;
+        }
+        ul:after{
+            content: "";
+            height: 0;
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+<div style="display: block">12345</div>
+<div style="display: none">12345</div>
+<div style="display: none">12345</div>
+<div style="display: none">12345</div>
+
+
+jfdksjgkdjgskyjskj
+</body>
+</html>

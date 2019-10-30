@@ -1,0 +1,134 @@
+.welcome_center{
+    width: 300px;
+    height: 135px;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/images/bg_03.png");
+    background-size: 300px 20px;
+    background-position: 0 52px;
+}
+.welcome{
+    border: none;
+}
+.choose {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 750px;
+    height: 50px;
+    border-bottom: 1px solid #C0811C;
+    margin-bottom: 20px;
+    padding-left: 250px;
+}
+.choose1{
+    width: 130px;
+    height: 51px;
+    margin-right: 55px;
+    background-color: #C0811C;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+.choose1:hover{
+    background-color: white;
+    width: 128px;
+    color: #D43B33;
+    border-left: 1px solid #C0811C;
+    border-right: 1px solid #C0811C;
+    border-top: 1px solid #C0811C;
+}
+.wenfeng_img1{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url("../imgs/wenfengta1.jpg");
+    background-size: 1000px 500px;
+    background-position: 0 -50px;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 1500px;
+    background-color: #f4f4f4;
+}
+.wenfeng{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+}
+.wenfeng_img2{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/wenfengta5.jpg");
+    margin-top: 20px;
+}
+.wenfeng p{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-indent: 2em;
+    line-height: 20px;
+    font-size: 15px;
+    color: #80868B;
+    width: 800px;
+}
+.wenmiao_img1{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/wenmiao1.jpg");
+    background-size: 1000px 500px;
+    background-position: 0 -50px;
+}
+.wenmiao{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    display: none;
+}
+.wenmiao_img2{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/wenmiao4.jpg");
+    margin-top: 20px;
+}
+.wenmiao p{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-indent: 2em;
+    line-height: 20px;
+    font-size: 15px;
+    color: #80868B;
+    width: 800px;
+}
+.water_img1{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/timg.jpg");
+    background-size: 1000px 350px;
+    background-position: 0 -50px;
+}
+.water{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    display: none;
+}
+.water_img2{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/shuiku4.jpg");
+    margin-top: 20px;
+    background-size: 600px 300px;
+}
+.water p{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-indent: 2em;
+    line-height: 20px;
+    font-size: 15px;
+    color: #80868B;
+    width: 800px;
+}

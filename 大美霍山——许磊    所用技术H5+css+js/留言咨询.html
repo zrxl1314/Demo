@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言咨询</title>
+    <link rel="stylesheet" type="text/css" href="css/模板.css">
+    <link rel="stylesheet" type="text/css" href="css/留言咨询.css">
+</head>
+<body>
+<header>
+    <div class="fl"><img src="imgs/logo_02.png" alt=""></div>
+    <div class="fr">
+        <input type="search" placeholder="佛子岭水库">
+    </div>
+    <div class="clear"></div>
+</header>
+<div class="nav">
+    <ul>
+    <li class="fl"><a href="首页.html">首页</a></li>
+    <li class="fl"><a href="自然景观.html">自然景观</a></li>
+    <li class="fl"><a href="人文景观.html">人文景观</a></li>
+    <li class="fl"><a href="名人名事.html">名人名事</a></li>
+    <li class="fl"><a href="龙头企业.html">龙头企业</a></li>
+    <li class="fl"><a href="高等学府.html">高等学府</a></li>
+    <li class="fl"><a href="地方特产.html">地方特产</a></li>
+    <li class="fl"><a href="地理位置.html">地理位置</a></li>
+    <li class="fl"><a href="区域地图.html">区域地图</a></li>
+    <li class="fr"><a href="留言咨询.html">留言咨询</a></li>
+</ul>
+</div>
+<div class="banner">
+    <div class="banner_img">
+        <img src="imgs/banner1.jpg" alt=""><img src="imgs/banner2.jpg" alt=""><img src="imgs/banner3.jpg" alt=""><img src="imgs/banner4.jpg" alt="">
+    </div>
+</div>
+<script>
+    var box2 = document.querySelector(".banner_img")
+    var time
+
+    function  fn() {
+        if(box2.offsetLeft==-3600){
+            box2.style.left=0
+        }else {
+            box2.style.left = box2.offsetLeft - 1200 + "px"
+        }
+
+    }
+    time = setInterval(fn,2000)
+</script>
+<div class="welcome">
+    <div class="fl welcome_side"></div>
+    <div class="fl welcome_center">
+        <p>Message Consulting</p>
+        <p>留言咨询</p>
+    </div>
+    <div class="fr welcome_side"></div>
+    <div class="clear"></div>
+</div>
+<div class="main">
+    <div class="form">
+        <form action="" method="post">
+            &emsp;&emsp;&emsp;您的姓名：<input type="text" name="name"><br/>
+            &emsp;&emsp;&emsp;您的性别：<input type="radio" name="sex">男&emsp;
+            <input type="radio" name="sex">女<br/>
+            &emsp;您的联系方式：<input type="tel" name="tel"><br/>
+            &emsp;您的居住地址：<select name="sheng" id="address"><br/>
+            <option value="安徽">安徽</option><option value="北京">北京</option><option value="海南">海南</option>
+            <option value="安徽">安徽</option><option value="上海">上海</option><option value="黑龙江">黑龙江</option>
+            <option value="">其他</option>
+        </select><br/>
+            您是否来过霍山：<input type="radio" name="a">是&emsp;
+            <input class="aa" type="radio" name="a">否<br/>
+            您是否想来霍山：<input type="radio" name="b">是&emsp;
+            <input class="bb" type="radio" name="b">否<br/>
+            <textarea name="word" id="content" cols="30" rows="10" placeholder="留下您的建议呗！"></textarea><br/>
+            <input type="submit" value="提交">
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <p>霍山微博：www.huoshanweibo.com</p>
+    <p>霍山贴吧：www.huoshanba.com</p>
+    <p>微信公众号：www.huoshan.com</p>
+    <p>地址：中华人民共和国安徽省六安市</p>
+    <p>咨询电话：18856278176</p>
+    <p>皖公网安备 34100202000215号</p>
+</footer>
+</body>
+</html>

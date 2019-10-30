@@ -1,0 +1,41 @@
+.videobox{
+    width: 984px;
+    margin: 0 auto;
+    height: 34px;
+    border-bottom: 2px solid #D16D57;
+}
+.videobox span{
+    width: 100px;
+    height: 34px;
+    display: block;
+    background-color: #D16D57;
+    color: white;
+    text-align: center;line-height: 34px;
+}
+.container4title2{
+    width: 984px;
+    margin: 0 auto;
+}
+.videobox2{
+    width: 984px;
+    margin: 0 auto;
+    height: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.videobox2 li{
+    width: 80px;
+    height: 30px;
+    background-color: #D43B33;
+    line-height: 30px;
+    margin-left: 0px;
+    margin-right: 12px;
+    font-size: 15px;
+    text-align: center;
+}
+.videobox2:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}

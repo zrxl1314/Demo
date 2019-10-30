@@ -1,0 +1,32 @@
+.maintop{
+    height:100px;
+    width: 100%;
+}
+.maintoptext{
+    font-size: 18px;
+    font-weight: bold;
+    color: #00040C;
+    text-align: center;
+}
+.maintop p:nth-child(1){
+    margin-top: 54px;
+}
+.video{
+    width: 984px;
+    height: 555px;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+video{
+    width: 677px;
+    height: 477px;
+    background-color: #000000;
+}
+.videoright{
+    width: 305px;
+    height: 477px;
+    background-color: #000000;
+}
+.videoright p{
+    color: white;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css/模板.css">
+    <link rel="stylesheet" type="text/css" href="css/首页.css">
+</head>
+<body>
+<header id="header">
+    <div class="fl"><img src="imgs/logo_02.png" alt=""></div>
+    <div class="fr">
+        <input type="search" placeholder="佛子岭水库">
+    </div>
+    <div class="clear"></div>
+</header>
+<div class="nav">
+    <ul>
+    <li class="fl"><a href="首页.html">首页</a></li>
+    <li class="fl"><a href="自然景观.html">自然景观</a></li>
+    <li class="fl"><a href="人文景观.html">人文景观</a></li>
+    <li class="fl"><a href="名人名事.html">名人名事</a></li>
+    <li class="fl"><a href="龙头企业.html">龙头企业</a></li>
+    <li class="fl"><a href="高等学府.html">高等学府</a></li>
+    <li class="fl"><a href="地方特产.html">地方特产</a></li>
+    <li class="fl"><a href="地理位置.html">地理位置</a></li>
+    <li class="fl"><a href="区域地图.html">区域地图</a></li>
+    <li class="fr"><a href="留言咨询.html">留言咨询</a></li>
+</ul>
+</div>
+<div class="banner">
+    <div class="banner_img">
+        <img src="imgs/banner1.jpg" alt=""><img src="imgs/banner2.jpg" alt=""><img src="imgs/banner3.jpg" alt=""><img src="imgs/banner4.jpg" alt="">
+    </div>
+</div>
+<script>
+    var box2 = document.querySelector(".banner_img")
+    var time
+
+    function  fn() {
+        if(box2.offsetLeft==-3600){
+            box2.style.left=0
+        }else {
+            box2.style.left = box2.offsetLeft - 1200 + "px"
+        }
+
+    }
+    time = setInterval(fn,2000)
+</script>
+<div class="welcome">
+    <div class="fl welcome_side"></div>
+    <div class="fl welcome_center">
+        <p>Welcome to Huoshan</p>
+        <p>欢迎来到霍山</p>
+    </div>
+    <div class="fr welcome_side"></div>
+    <div class="clear"></div>
+</div>
+<main>
+    <div class="title">霍山简介</div>
+    <div class="introduction">霍山县，隶属于安徽省六安市，位于安徽西部、大别山腹地、淮河一级支流淠河上游。总面积2043平方千米。
+        汉元封五年（前106年）置县，隋朝始称霍山县。总体为山地地貌，地势由东南向西北倾斜。属北亚热带湿润季风气候区。
+        截至2018年，霍山县下辖13个镇、3个乡、2个功能区，户籍人口36.2595万人，实现地区生产总值（GDP）176.69亿元，
+        其中：第一产业增加值15.73亿元，第二产业增加值95.77亿元，第三产业增加值65.19亿元，
+        三次产业结构为8.9：54.2：36.9，按户籍人口计算，人均生产总值48695元。
+       <div class="introduction_text"></div>
+    </div>
+    <div class="title">名胜古迹</div>
+    <div class="scenery">
+        <div class="fl scenery_left">
+            <p>霍山文峰广场文峰塔</p>
+        </div>
+        <div class="fl scenery_center">
+            <p>霍山白马尖风景区云海</p>
+        </div>
+        <div class="fr scenery_right">
+            <p>霍山孔夫子文庙</p>
+        </div>
+    </div>
+    <div class="title">名人名事</div>
+    <div class="events">
+        <div class="fl events_left">
+            <p>霍山市蓝天救援行动组赶赴灾害现场</p>
+        </div>
+        <div class="fl events_center">
+            <ul>
+                <li><span>【关注霍山】</span>请记住这个人的名字，李家祥！</li>
+                <li><span>【关注霍山】</span>六安市霍山县无缘沿江高铁</li>
+                <li><span>【关注霍山】</span>向霍山这些高温下的坚守者致敬！</li>
+                <li><span>【关注霍山】</span>赞“新时代”好青年，霍山90后姑娘</li>
+                <li><span>【关注霍山】</span>霍山县33项民生工程的进展来了</li>
+                <li><span>【关注霍山】</span>霍山市蓝天救援行动组赶赴灾害现场</li>
+                <li><span>【关注霍山】</span>霍山适合产业快速发展</li>
+                <li><span>【关注霍山】</span>敦促投案 积极检举揭发</li>
+                <li><span>【关注霍山】</span>霍山交警正严查这六大交通违法行为</li>
+            </ul>
+        </div>
+        <div class="fr events_right">
+            <p>工人不惧“烤”验，坚守一线</p>
+        </div>
+    </div>
+    <div class="title">地方特产</div>
+    <div class="specialty">
+        <div class="fl specialty_left">
+            <p>石斛</p>
+        </div>
+        <div class="fl specialty_center">
+            <p>橡子粉</p>
+        </div>
+        <div class="fr specialty_right">
+            <p>黄芽茶</p>
+        </div>
+    </div>
+    <div class="title">实用工具</div>
+    <div class="tool">
+        <div class="fl tool_left">
+            <p>酒店预订</p>
+        </div>
+        <div class="fl tool_center">
+            <p>饮食一览</p>
+        </div>
+        <div class="fl toolCenter">
+            <p>交通查询</p>
+        </div>
+        <div class="fr tool_right">
+            <p>即时天气</p>
+        </div>
+    </div>
+    <div class="title">友情链接</div>
+    <div class="company">
+        <img src="imgs/images/company_03.png" alt="">
+        <img src="imgs/images/company_06.png" alt="">
+        <img src="imgs/images/company_08.png" alt="">
+        <img src="imgs/images/company_12.png" alt="">
+        <img src="imgs/images/company_10.png" alt="">
+        <div class="fr return"><a href="#header">返回顶部</a></div>
+    </div>
+</main>
+
+
+
+
+
+
+<footer>
+    <p>霍山微博：www.huoshanweibo.com</p>
+    <p>霍山贴吧：www.huoshanba.com</p>
+    <p>微信公众号：www.huoshan.com</p>
+    <p>地址：中华人民共和国安徽省六安市</p>
+    <p>咨询电话：18856278176</p>
+    <p>皖公网安备 34100202000215号</p>
+</footer>
+</body>
+</html>

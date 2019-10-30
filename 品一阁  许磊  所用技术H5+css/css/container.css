@@ -1,0 +1,336 @@
+.word1{
+    width: 984px;
+    height: 276px;
+    margin: 0px auto;
+}
+.text6{
+    font-size: 14px;
+    text-align: center;
+    color: #908182;
+    line-height: 32px;
+}
+.text7{
+    font-size: 14px;
+    text-align: center;
+    color: #908182;
+    font-weight: bold;
+    line-height: 32px;
+}
+.english{
+    font-size: 14px;
+    color: #908182;
+    text-align: center;
+    line-height: 32px;
+}
+.pic{
+    height: 464px;
+    background-image: url("../image/idnex_02.png");
+}
+.pic2{
+    width: 984px;
+    margin: 0px auto;
+}
+.p1{
+    margin-top: 74px;
+}
+.dd1{
+    font-size: 12px;
+    border-bottom: 1px solid #C8C8C8;
+    line-height: 32px;
+    width: 378px;
+}
+.last1{
+    width: 1000px;
+    height: 348px;
+    margin: 0 auto;
+    background-color: #4B4B4B;
+}
+.e1{
+    width: 250px;
+    height: 174px;
+    background-image: url("../image/e1.png");
+}
+.e3{
+    width: 250px;
+    height: 174px;
+    background-image: url("../image/e2.png");
+}
+.e6{
+    width: 250px;
+    height: 174px;
+    background-image: url("../image/e3.png");
+}
+.e8{
+    width: 250px;
+    height: 174px;
+    background-image: url("../image/e4.png");
+}
+.e2{
+    width: 250px;
+    height: 174px;
+    color: #F0EBE3;
+}
+.contiue{
+    height: 55px;
+    background-color: #D43B33;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 123px;
+    line-height: 55px;
+}
+.bqtext{
+    width: 336px;
+    height: 36px;
+    font-size: 18px;
+    color: #876267;
+    line-height: 36px;
+    text-align: center;
+    border: none;
+}
+.bqtext:hover{
+    background-image: url("../image/tabbg.png");
+    background-size: 326px 34px;
+    background-repeat: no-repeat;
+}
+.pic3{
+    width: 1008px;
+    height:180px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.pic3leftbox{
+    width:720px;
+    height: 181px;
+    border: 1px solid #E2E2E2;
+}
+.piclbl{
+    margin-top: 25px;
+    margin-left: 31px;
+}
+.piclbr{
+    width: 420px;
+    margin-top: 25px;
+    margin-right:31px;
+}
+.pic3text1{
+    color: #86786C;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pic3text2{
+    color: #86786C;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.pic3text3{
+    color: #86786C;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.pic3right{
+    border: 1px solid #E2E2E2;
+    width: 251px;
+}
+.eye{
+    position:relative;
+    top: 2px;
+}
+.pic3a{
+    color: #86786C;
+    font-size: 12px;
+    margin-left: 160px;
+}
+.last2ul{
+    width: 1008px;
+    margin: 0 auto;
+    height: 35px;
+    margin-top: 28px;
+    margin-bottom: 62px;
+}
+.last2ul ul li{
+    font-weight: bold;
+    color: white;
+    width: 35px;
+    height: 35px;
+    background-color: #D8D8D8;
+    text-align: center;
+    line-height: 35px;
+    list-style: none;
+    float: left;
+    margin-left: 1px;
+}
+.last2ul ul li:after{
+    content: "";
+    height: 0;
+    display: inline-block;
+    clear: both;
+}
+.last2ul ul li:hover{
+    background-color: #B50900;
+}
+.container4{
+    color: #636363;
+}
+.container4top{
+    width: 984px;
+    margin: 0 auto;
+}
+.container4title{
+    width: 984px;
+    margin: 0 auto;
+    border-bottom: 1px solid #636363;
+}
+.container4content {
+    width: 984px;
+    margin: 0 auto;
+}
+.container4content p{
+    font-size: 16px;
+    margin-top: 28px;
+}
+.last3{
+    width: 984px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 53px;
+}
+.button{
+    width: 104px;
+    height: 40px;
+    margin-left: 440px;
+    border: 0;
+    background-image: url("../image/more_more_bg.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.buttonbox{
+    width: 984px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.word1a{
+    width: 984px;
+    margin: 0 auto;
+}
+.container5bq{
+    width: 984px;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 35px;
+    border-bottom: 1px solid gray;
+}
+.container5bq ul li{
+    height: 35px;
+    width: 93px;
+    background-color: #626262;
+    list-style: none;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 14px;
+}
+.container5bq ul li:after{
+    content: "";
+    height: 0px;
+    display: block;
+    clear: both;
+}
+.container5bq ul li:hover{
+    background-color: white;
+    color: #DB5453;
+    height: 35px;
+    width: 91px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.container5content {
+    width: 984px;
+    margin: 0 auto;
+}
+.ccleft{
+    margin-left: 113px;
+    margin-top: 40px;
+}
+.ccright{
+    margin-left: 40px;
+    margin-top: 28px;
+}
+.ccright dl{
+    color: #626262;
+    font-size: 12px;
+}
+.ccright dd{
+    color: #626262;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+}
+.lastsecond{
+    padding-top: 40px;
+    height: 310px;
+    background-image: url("../image/idnex_02.png");
+    margin-top: 90px;
+}
+.lstext1{
+    width: 984px;
+    margin: 0 auto;
+}
+.lspic{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+.lspic2{
+    margin-left: 9px;
+}
+.lspic3{
+    margin-left: 3px;
+}
+.lastfirst{
+    width: 984px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.lfleft table tr td{
+    line-height: 36px;
+    font-size: 12px;
+    border-bottom: 1px dashed gray;
+}
+.inputa{
+    width: 222px;
+    height: 41px;
+    font-size: 14px;
+    text-indent: 18px;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+.inputb{
+    width: 92px;
+    height: 41px;
+    font-size: 14px;
+    text-indent: 18px;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+.inputc{
+    width: 462px;
+    height: 158px;
+    font-size: 18px;
+    color:gray;
+    text-indent: 20px;
+    margin-top: 20px;
+}
+.submit{
+    width: 130px;
+    height: 33px;
+    background-color:#D43B33;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+
+

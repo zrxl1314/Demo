@@ -1,0 +1,87 @@
+.maintop{
+    height:100px;
+    width: 100%;
+}
+.maintoptext{
+    font-size: 18px;
+    font-weight: bold;
+    color: #00040C;
+    text-align: center;
+}
+.maintop p:nth-child(1){
+    margin-top: 54px;
+}
+.maincenter{
+    width: 984px;
+    margin: 0 auto;
+}
+.maincentercontent{
+    width: 470px;
+    height: 50px;
+    padding-top: 190px;
+    background-image: url("../image/courcepic.png");
+    background-size: 470px 240px;
+}
+.maincentercontent p{
+    width: 470px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #222222;
+    font-size: 18px;
+    color: white;
+}
+.maincenter div:nth-child(1){
+    margin-right: 44px;
+    margin-bottom: 35px;
+}
+.maincenter div:nth-child(3){
+    margin-right: 44px;
+}
+.mainbottom{
+    width: 1001px;
+    margin: 0 auto;
+}
+.mainimgbox{
+    width: 242px;
+    height: 195px;
+}
+.mainimgbox p{
+    color: #332C26;
+    margin-top: 8px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.mainbottom div:nth-child(1){
+    margin-right: 11px;
+}
+.mainbottom div:nth-child(2){
+    margin-right: 11px;
+}
+.mainbottom4{
+    width: 585px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+.mainbottom4 li:nth-child(1){
+    width: 285px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    background-color: #E5E5E5;
+    margin-left: 0;
+}
+.mainbottom4 li:nth-child(2){
+    width: 285px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    background-color: #E5E5E5;
+    margin-left: 0;
+}
+.mainbottom4 li:hover{
+    background-color: #D43B33;
+}

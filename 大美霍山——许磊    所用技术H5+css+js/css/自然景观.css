@@ -1,0 +1,124 @@
+.welcome_center{
+    width: 300px;
+    height: 135px;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/images/bg_03.png");
+    background-size: 300px 20px;
+    background-position: 0 52px;
+}
+.welcome{
+    border: none;
+}
+.natural{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 700px;
+    height: 50px;
+    border-bottom: 1px solid #C0811C;
+    margin-bottom: 20px;
+    padding-left: 300px;
+}
+.natural1{
+    width: 150px;
+    height: 51px;
+    margin-right: 100px;
+    background-color: #C0811C;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+.natural1:hover{
+    background-color: white;
+    width: 148px;
+    color: #D43B33;
+    border-left: 1px solid #C0811C;
+    border-right: 1px solid #C0811C;
+    border-top: 1px solid #C0811C;
+}
+.baima_img1{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/baimajian.jpg");
+    background-size: 1000px 300px;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 2000px;
+    background-color: #f4f4f4;
+}
+.baima{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+}
+.baima_img2{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/baimajian2.jpg");
+    margin-top: 20px;
+}
+.baima_img3{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/bainajian3.jpg");
+    background-size: 600px 300px;
+    margin-top: 20px;
+}
+.baima p{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-indent: 2em;
+    line-height: 20px;
+    font-size: 15px;
+    color: #80868B;
+    width: 800px;
+}
+.tiantang_img1{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/tiantangzhai1.jpg");
+    background-size: 1000px 300px;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 2000px;
+    background-color: #f4f4f4;
+}
+.tiantang{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    display: none;
+}
+.tiantang_img2{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/tiantangz2.jpg");
+    margin-top: 20px;
+}
+.tiantang_img3{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../imgs/tiantangzhai3.jpg");
+    background-size: 600px 300px;
+    margin-top: 20px;
+}
+.tiantang p{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-indent: 2em;
+    line-height: 20px;
+    font-size: 15px;
+    color: #80868B;
+    width: 800px;
+}

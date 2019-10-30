@@ -1,0 +1,108 @@
+.maintop{
+    height:100px;
+    width: 100%;
+}
+.maintoptext{
+    font-size: 18px;
+    font-weight: bold;
+    color: #00040C;
+    text-align: center;
+}
+.maintop p:nth-child(1){
+    margin-top: 54px;
+}
+.maincenter{
+    padding-top: 20px;
+    padding-left: 374px;
+    height: 243px;
+    width: 610px;
+    background-image: url("../image/expert.png");
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #EDEDED;
+    margin: 0 auto;
+}
+.maincenter p:nth-child(1){
+     color: #191919;
+     font-weight: bold;
+     width: 180px;
+     height: 27px;
+     border-bottom: 3px solid #D43B33;
+ }
+.maincenter a{
+    color: #191919;
+    font-weight: bold;
+    width: 180px;
+    height: 27px;
+}
+.maincenter p:nth-child(2){
+    margin-top: 5px;
+    color: #787A87;
+    font-size: 14px;
+    line-height: 26px;
+}
+.mainbottom{
+    width: 100%;
+    background-color: #F7F7F7;
+    height: 525px;
+}
+.mainbottom2{
+    height:100px;
+    width: 100%;
+    padding-top: 54px;
+}
+.mainbottom2text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00040C;
+    text-align: center;
+}
+.mainbottom3{
+    width: 984px;
+    height: 256px;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+}
+.mainbottomimg{
+    background-color: white;
+    height: 256px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mainbottom3 div:nth-child(1){
+    margin-right: 12px;
+}
+.mainbottomimg p{
+    margin-left: 42px;
+    margin-top: 20px;
+    width: 216px;
+    color:#1A1A1A;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 3px solid #D43B33;
+}
+.mainbottom4{
+    width: 585px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.mainbottom4 li:nth-child(1){
+    width: 285px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    background-color: #E5E5E5;
+    margin-left: 0;
+}
+.mainbottom4 li:nth-child(2){
+    width: 285px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    background-color: #E5E5E5;
+    margin-left: 0;
+}
+.mainbottom4 li:hover{
+    background-color: #D43B33;
+}
